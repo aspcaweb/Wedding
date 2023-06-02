@@ -50,7 +50,6 @@ main{
 .Names{
     font-size: 30px;
     width:fit-content;
-    text-overflow: clip;
 }
 h2{
     font-size: small;
@@ -87,7 +86,8 @@ p{
     font-size: 12px;
 }
 ul{
-    color:grey;
+    padding-left:14px;
+      color:grey;
 }
 ul li p{
     color:var(--font);
