@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+}
+:root{
+    --font:rgb(46, 46, 46);
+}
+body{
+    background-color:darkgrey;
+   /*  padding:40px 160px;*/ 
+    color:var(--font);
+}
+
+nav ul{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    list-style: none;
+
+}
+nav ul li a{
+    display:block;
+   background-color: white;
+    text-decoration: underline;
+    padding:10px;
+    color:var(--font);
+    flex:1;
+}
+nav ul li a:hover{
+    background-color: lightgrey;
+}
+main{
+    font-family: Gill Sans, Gill Sans MT, Calibri, sans-serif;
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Col{
+    background-color: white;
+    padding:20px 30px;
+    display:block;
+    flex:1;
+    min-width: 305px;
+    min-height:745px;
+    height:auto;
+    border-bottom:1px dashed darkgrey;
+
+}
+.Names{
+    font-size: 30px;
+    width:fit-content;
+    text-overflow: clip;
+}
+h2{
+    font-size: small;
+    letter-spacing: .15rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+p{
+ font-weight: lighter;
+ font-size: 18px;
+}
+.topBox{
+  
+    height:220px;
+}
+
+.Menu{
+
+    display:flex;
+    font-size: 80px;
+}
+
+.miniBlock{
+    
+    margin-bottom: 30px;
+    max-width: 280px;
+}
+.extraMini{
+    display:block;
+    max-width: 300px;
+    font-size: 20px;
+}
+.extraMini p{
+    font-size: 12px;
+}
+ul{
+    color:grey;
+}
+ul li p{
+    color:var(--font);
+}
+
+@media only screen and (min-width:600px) {
+
+    nav{
+        display:none;
+    }
+  
+  
+  
+  }
